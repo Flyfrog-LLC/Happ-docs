@@ -20,7 +20,7 @@ Happ only collects and shares the app's crash logs and diagnostics. Crash log da
 
 ADVERTISING NETWORKS
 
-Happ is monetized using mobile app ads. This is achieved with the Google Admob advertising platform. Advertising is achieved with adherence to the privacy policy that can be accessed
+Happ does not use monetization and has no plans for it in the future.
 
 CHILDREN’S PRIVACY
 
