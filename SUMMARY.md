@@ -5,4 +5,5 @@
 * [Terms of Services](terms-of-services.md)
 * [Documentation](documentation/README.md)
   * [Crypto link](documentation/crypto-link.md)
+  * [Meta Info](documentation/meta-info.md)
 * [Contacts](contacts.md)
