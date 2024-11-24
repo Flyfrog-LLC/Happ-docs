@@ -11,7 +11,7 @@ Metadata can be transmitted in two ways:
 1. Through the HTTP header of the subscription page.
 2. Through the subscription body by prefixing the parameter with the `#` symbol (e.g., `#profile-title`).
 
-#### Display Parameters
+### Display Parameters
 
 * **`profile-title`** (string):\
   The profile name. It can be provided as plain text or in base64 (UTF-8).\
@@ -33,14 +33,14 @@ Metadata can be transmitted in two ways:
   Announcement text. It can be provided in plain text or base64 format.\
   **Limit**: The maximum length of displayed text is 200 characters.
 
-#### Additional Recommendations
+### Additional Recommendations
 
 * To ensure proper metadata display, make sure the data format meets the requirements (plain text or base64 UTF-8).
 * When using plain text, replace spaces with the `+` character to avoid processing errors.
 
 ***
 
-#### Example **http headers:** <a href="#primer-http-headers" id="primer-http-headers"></a>
+### Example **http headers:** <a href="#primer-http-headers" id="primer-http-headers"></a>
 
 ```
 HTTP/2 200 
@@ -57,7 +57,7 @@ announce: base64:J1bC5jb20iLCJwYXRoIjoiXC8xUyIsInRscyI6InRscyIsImFkZCI6Ind3dy5nd
 cf-cache-status: DYNAMIC
 ```
 
-#### Example subscription bod&#x79;**:** <a href="#primer-tela-podpiski" id="primer-tela-podpiski"></a>
+### Example subscription bod&#x79;**:** <a href="#primer-tela-podpiski" id="primer-tela-podpiski"></a>
 
 ```
 #profile-title: Happ.su
