@@ -4,7 +4,7 @@
 
 A subscription owner can display information about consumed and remaining traffic, subscription expiration date, display announcements, and set up to two links for icons in the metadata display bar.
 
-All data can be provided in either plain text or base64 format. When using plain text, spaces must be replaced with the `+` character.
+All data can be provided in either plain text or base64 format.
 
 Metadata can be transmitted in two ways:
 
