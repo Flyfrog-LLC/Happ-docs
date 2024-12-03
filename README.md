@@ -1,10 +1,10 @@
 # Happ - Proxy Utility
 
-| iOS                                                                        | Android                                                                                                             | Desktop       |
-| -------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- | ------------- |
-| [App Store](https://apps.apple.com/us/app/happ-proxy-utility/id6504287215) | Google Play: Soon                                                                                                   | Windows: Soon |
-| [Testflight](https://testflight.apple.com/join/XMls6Ckd)                   | [Download APK](https://github.com/FlyFrg/Happ\_android\_update/releases/latest/download/Happ\_1.4.0\_1067\_all.apk) | macOS: Soon   |
-|                                                                            |                                                                                                                     | Linux: Soon   |
+| iOS                                                                        | Android                                                                                                          | Desktop       |
+| -------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- | ------------- |
+| [App Store](https://apps.apple.com/us/app/happ-proxy-utility/id6504287215) | Google Play: Soon                                                                                                | Windows: Soon |
+| [Testflight](https://testflight.apple.com/join/XMls6Ckd)                   | [Download APK](https://github.com/FlyFrg/Happ_android_update/releases/download/1.5/Happ_1.5.0_1069_all.apk)      | macOS: Soon   |
+|                                                                            | [Download Beta APK](https://github.com/FlyFrg/Happ_android_update/releases/download/1.5/Happ_1.5.0_1069_all.apk) | Linux: Soon   |
 
 Happ is a mobile application designed to facilitate the use of proxy servers, featuring an intuitive interface and a range of beneficial capabilities.
 
