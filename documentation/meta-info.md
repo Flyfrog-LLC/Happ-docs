@@ -36,7 +36,8 @@ Metadata can be transmitted in two ways:
 ### Additional Recommendations
 
 * To ensure proper metadata display, make sure the data format meets the requirements (plain text or base64 UTF-8).
-* When using plain text, replace spaces with the `+` character to avoid processing errors.
+* Parameters specified in the subscription body take precedence over those passed through HTTP headers.
+* If some parameters are received via HTTP headers and others through the subscription body, all parameters should be merged, respecting their priority, and displayed correctly.
 
 ***
 
