@@ -6,4 +6,5 @@
 * [Documentation](documentation/README.md)
   * [Crypto link](documentation/crypto-link.md)
   * [Meta Info](documentation/meta-info.md)
+  * [Routing](documentation/routing.md)
 * [Contacts](contacts.md)
