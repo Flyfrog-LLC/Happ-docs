@@ -2,7 +2,7 @@
 
 The app comes with pre-installed geo files, ensuring it's ready to use immediately after installation. The relevance of geo files is maintained by updating the core version within the app.
 
-#### Adding Routing Rules
+### Adding Routing Rules
 
 The app allows you to add routing rules automatically by using special links that can be created on the [https://routing.happ.su](https://routing.happ.su/) website.
 
@@ -15,7 +15,7 @@ The links can be transmitted in one of the following ways:
 
 For HTTP headers, the `routing` parameter is used, while for subscription bodies, simply including the link is sufficient.
 
-#### Handling Download Errors
+### Handling Download Errors
 
 The app uses a geo file download manager that operates in the background.
 
@@ -23,7 +23,7 @@ The app uses a geo file download manager that operates in the background.
 * An error message appears on the main screen.
 * A red exclamation mark is displayed next to the problematic profile in the profile list.
 
-#### Troubleshooting
+### Troubleshooting
 
 The problematic profile state automatically resolves after:
 
@@ -32,14 +32,14 @@ The problematic profile state automatically resolves after:
 
 If there are no more problematic profiles in the list, error notifications are removed.
 
-#### Types of Links
+### Types of Links
 
 * `happ://routing/add/{base64}`: Adds a profile to the profile list. The first added profile becomes active only after geo files are successfully downloaded. If a profile with the same name already exists, it is overwritten.
 * `happ://routing/onadd/{base64}`: Adds and automatically activates a profile, even if other profiles are active. If a profile with the same name already exists, it is overwritten.
 
 `{base64}` is a JSON profile converted into a Base64-encoded text format.
 
-#### Profile Structure
+### Profile Structure
 
 The app uses routing profiles configured via JSON.
 
@@ -90,7 +90,7 @@ The default profile contains basic settings used to fill in missing or incorrect
 }
 ```
 
-#### Profile Management Features
+### Profile Management Features
 
 * If a profile with the same name already exists, its data is updated.
 * Geo files are updated no more than once a week, even if the profile is updated every hour.
