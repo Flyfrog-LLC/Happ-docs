@@ -7,4 +7,5 @@
   * [Crypto link](documentation/crypto-link.md)
   * [Meta Info](documentation/meta-info.md)
   * [Routing](documentation/routing.md)
+  * [Local Network Connections](documentation/local-network-connections.md)
 * [Contacts](contacts.md)
