@@ -1,10 +1,10 @@
 # Local Network Connections
 
-Use the "Allow Local Network Connections" option to share your VPN with devices connected to the same local network or Wi-Fi as you.
+Use the "Allow connections from LAN" option to share your VPN with devices connected to the same local network or Wi-Fi as you.
 
 **How to Enable This Feature**
 
-* **iOS**: Open the app settings and enable the "Allow Local Network Connections" option.
+* **iOS**: Open the app settings and enable the "Allow connections from LAN" option.
 * **Android**: Open the app settings, go to "Advanced Settings," and activate "Allow LAN Connections."
 
 Once enabled, new parameters will appear:
