@@ -6,17 +6,17 @@
 | [Testflight](https://testflight.apple.com/join/XMls6Ckd)                   | [Download APK](https://github.com/FlyFrg/Happ_android_update/releases/latest/download/Happ.apk)           | macOS: Soon                                                                                                          |
 |                                                                            | [Download Beta APK](https://github.com/FlyFrg/Happ_android_update/releases/latest/download/Happ_beta.apk) | Linux: Soon                                                                                                          |
 
-Happ is a mobile application designed to facilitate the use of proxy servers, featuring an intuitive interface and a range of beneficial capabilities.
+Happ is a mobile application designed for convenient proxy server management, powered by the robust Xray core. The app features an intuitive interface and a range of useful functions, making it an essential tool for managing connections.
 
-Main functionalities include:
+**Key features of Happ include:**
 
-Configuration of proxies based on rules. Support for multiple protocol types. Protocols supported are:
-
-* VLESS(Reality)
-* VMess
-* Trojan
-* Shadowsocks
-* Socks
+* Configuration of proxy servers based on flexible routing rules.
+* Support for multiple modern protocols, including:
+  * **VLESS (Reality)**
+  * **VMess**
+  * **Trojan**
+  * **Shadowsocks**
+  * **Socks**
 
 Happ ensures your network activity remains private by not collecting any data; your information remains solely on your device without being sent to external servers.
 
