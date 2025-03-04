@@ -36,6 +36,7 @@ If there are no more problematic profiles in the list, error notifications are r
 
 * `happ://routing/add/{base64}`: Adds a profile to the profile list. The first added profile becomes active only after geo files are successfully downloaded. If a profile with the same name already exists, it is overwritten.
 * `happ://routing/onadd/{base64}`: Adds and automatically activates a profile, even if other profiles are active. If a profile with the same name already exists, it is overwritten.
+* `happ://routing/off`: Disable the routing function
 
 `{base64}` is a JSON profile converted into a Base64-encoded text format.
 
@@ -49,23 +50,29 @@ The default profile contains basic settings used to fill in missing or incorrect
 
 ```json
 {
-  "Name": "Default",
-  "GlobalProxy": "true",
-  "RemoteDns": "1.1.1.1",
-  "DomesticDns": "8.8.8.8",
-  "Geoipurl": "https://github.com/v2fly/geoip/releases/latest/download/geoip.dat",
-  "Geositeurl": "https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat",
-  "DnsHosts": {"domain:googleapis.cn": "googleapis.com"},
-  "DomainStrategy": "IPifNonMatch",
-  "DirectIp": [
-    "10.0.0.0/8",
-    "100.64.0.0/10",
-    "172.16.0.0/12",
-    "192.168.0.0/16",
-    "169.254.0.0/16",
-    "224.0.0.0/4",
-    "255.255.255.255"
-  ]
+    "GlobalProxy": "true",
+    "RemoteDNSType": "DoH",
+    "RemoteDNSDomain": "https://cloudflare-dns.com/dns-query",
+    "RemoteDNSIP": "1.1.1.1",
+    "DomesticDNSType": "DoU",
+    "DomesticDNSDomain": "",
+    "DomesticDNSIP": "8.8.8.8",
+    "Geoipurl": "https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geoip.dat",
+    "Geositeurl": "https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geosite.dat",
+    "DnsHosts": {
+        "cloudflare-dns.com": "1.1.1.1"
+    },
+    "DirectSites": [],
+    "DirectIp": [
+        "10.0.0.0/8",
+        "172.16.0.0/12",
+        "192.168.0.0/16",
+        "169.254.0.0/16",
+        "224.0.0.0/4",
+        "255.255.255.255"
+    ],
+    "DomainStrategy": "IPIfNonMatch",
+    "FakeDNS": "false"
 }
 ```
 
@@ -73,20 +80,36 @@ The default profile contains basic settings used to fill in missing or incorrect
 
 ```json
 {
-  "Name": "China",
-  "GlobalProxy": "true",
-  "RemoteDns": "1.1.1.1",
-  "DomesticDns": "223.5.5.5",
-  "Geoipurl": "https://github.com/v2fly/geoip/releases/latest/download/geoip.dat",
-  "Geositeurl": "https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat",
-  "DnsHosts": {},
+    "Name": "China",
+    "GlobalProxy": "true",
+    "RemoteDNSType": "DoH",
+    "RemoteDNSDomain": "https://cloudflare-dns.com/dns-query",
+    "RemoteDNSIP": "1.1.1.1",
+    "DomesticDNSType": "DoU",
+    "DomesticDNSDomain": "",
+    "DomesticDNSIP": "8.8.8.8",
+    "Geoipurl": "https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geoip.dat",
+    "Geositeurl": "https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geosite.dat",
+    "LastUpdated": "",
+    "DnsHosts": {
+        "cloudflare-dns.com": "1.1.1.1"
+    },
   "DirectSites": ["geosite:cn", "geosite:geolocation-cn"],
-  "DirectIp": ["geoip:cn"],
+    "DirectIp": [
+        "geoip:cn",
+        "10.0.0.0/8",
+        "172.16.0.0/12",
+        "192.168.0.0/16",
+        "169.254.0.0/16",
+        "224.0.0.0/4",
+        "255.255.255.255"
+    ],
   "ProxySites": ["geosite:cn"],
   "ProxyIp": ["geoip:amazon"],
   "BlockSites": ["geosite:ads"],
   "BlockIp": ["geoip:ads"],
-  "DomainStrategy": "IPifNonMatch"
+    "DomainStrategy": "IPIfNonMatch",
+    "FakeDNS": "false"
 }
 ```
 
@@ -94,6 +117,7 @@ The default profile contains basic settings used to fill in missing or incorrect
 
 * If a profile with the same name already exists, its data is updated.
 * Geo files are updated no more than once a week, even if the profile is updated every hour.
+* If the profile has a parameter "LastUpdated": "", and it contains a date in unix format that is higher than the previous value.
 
 **Example http headers:**
 
