@@ -54,13 +54,14 @@ The default profile contains basic settings used to fill in missing or incorrect
     "RemoteDNSType": "DoH",
     "RemoteDNSDomain": "https://cloudflare-dns.com/dns-query",
     "RemoteDNSIP": "1.1.1.1",
-    "DomesticDNSType": "DoU",
-    "DomesticDNSDomain": "",
+    "DomesticDNSType": "DoH",
+    "DomesticDNSDomain": "https://dns.google/dns-query",
     "DomesticDNSIP": "8.8.8.8",
     "Geoipurl": "https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geoip.dat",
     "Geositeurl": "https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geosite.dat",
     "DnsHosts": {
-        "cloudflare-dns.com": "1.1.1.1"
+        "cloudflare-dns.com": "1.1.1.1",
+        "dns.google": "8.8.8.8"
     },
     "DirectSites": [],
     "DirectIp": [
