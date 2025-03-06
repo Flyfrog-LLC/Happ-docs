@@ -33,6 +33,8 @@ Metadata can be transmitted in two ways:
   Announcement text. It can be provided in plain text or base64 format.\
   **Limit**: The maximum length of displayed text is 200 characters.
 
+### **Update Parameter**  **profile-update-interval (int):** The interval for automatic subscription updates, specified in hours. If the user has set an interval in the app settings, this parameter will be ignored.
+
 ### Additional Recommendations
 
 * To ensure proper metadata display, make sure the data format meets the requirements (plain text or base64 UTF-8).
