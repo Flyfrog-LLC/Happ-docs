@@ -12,4 +12,5 @@
   * [Crypto link](developer-documentation/crypto-link.md)
   * [Meta Info](developer-documentation/meta-info.md)
   * [Routing](developer-documentation/routing.md)
+  * [Displaying flags and smileys](developer-documentation/emoji.md)
 * [Contacts](contacts.md)
