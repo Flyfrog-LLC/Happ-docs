@@ -31,3 +31,14 @@ However, if a smiley appears **before the flag**, the flag will **not be shown a
 
 ⚠️ For **subscription headers**, only emoji **symbols** (e.g. 🥰) are supported.\
 **UTF-8 encoded emojis are not supported**.
+
+### Example
+
+```
+vless://uuid@ip:80?flow=&type=tcp&security=none#Right1%F0%9F%87%AF%F0%9F%87%B5%F0%9F%A5%B0
+vless://uuid@ip:80?flow=&type=tcp&security=none#Right2🇯🇵🥰
+vless://uuid@ip:80?flow=&type=tcp&security=none#Wrong1%F0%9F%A5%B0%F0%9F%87%AF%F0%9F%87%B5
+vless://uuid@ip:80?flow=&type=tcp&security=none#Wrong2🥰🇯🇵
+```
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
