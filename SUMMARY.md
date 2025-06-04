@@ -13,4 +13,5 @@
   * [Meta Info](dev-docs/meta-info.md)
   * [Routing](dev-docs/routing.md)
   * [Displaying flags and smileys](dev-docs/emoji.md)
+  * [Examples of links and parameters](dev-docs/examples-of-links-and-parameters.md)
 * [Contacts](contacts.md)
