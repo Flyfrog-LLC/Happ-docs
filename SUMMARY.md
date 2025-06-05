@@ -14,4 +14,5 @@
   * [Routing](dev-docs/routing.md)
   * [Displaying flags and smileys](dev-docs/emoji.md)
   * [Examples of links and parameters](dev-docs/examples-of-links-and-parameters.md)
+  * [Ping](dev-docs/ping.md)
 * [Contacts](contacts.md)
