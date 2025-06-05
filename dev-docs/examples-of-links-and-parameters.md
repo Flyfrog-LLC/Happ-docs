@@ -48,8 +48,8 @@ Defined at the end of the config after `#`.
 
 <summary>serverdescription</summary>
 
-Available **only when `ProviderID` is set**.\
-Displays a subtitle below the server name instead of protocol labels like "VMess", "VLESS", or "Trojan".
+Available only for the local server list. For subscriptions, the `ProviderID` parameter is required.\
+Allows you to set an additional label that is displayed below the server name instead of the default text (e.g., "VMess", "VLESS", "Trojan").
 
 * Max length: 30 characters
 * Truncated with `...` if too long
