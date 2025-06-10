@@ -56,6 +56,6 @@ Allows you to set an additional label that is displayed below the server name in
 * Specified after the title with `?`
 
 **Example:**\
-`vmess://...#MyServer?serverDescription=Netflix`
+`vmess://...#MyServer?serverDescription=<base64>`
 
 </details>
