@@ -46,7 +46,7 @@ Defined at the end of the config after `#`.
 
 <details>
 
-<summary>serverdescription</summary>
+<summary>serverDescription</summary>
 
 Available only for the local server list. For subscriptions, the `ProviderID` parameter is required.\
 Allows you to set an additional label that is displayed below the server name instead of the default text (e.g., "VMess", "VLESS", "Trojan").
@@ -56,6 +56,6 @@ Allows you to set an additional label that is displayed below the server name in
 * Specified after the title with `?`
 
 **Example:**\
-`vmess://...#MyServer?serverdescription=Netflix`
+`vmess://...#MyServer?serverDescription=Netflix`
 
 </details>
