@@ -6,7 +6,7 @@
 | Testflight [Global](https://testflight.apple.com/join/XMls6Ckd), Rus                                                                                         | [Download APK](https://github.com/Happ-proxy/happ-android/releases/latest/download/Happ.apk)           | macOS: [alpha](https://github.com/Happ-proxy/happ-desktop/releases/)                                     | [Android apk](https://github.com/Happ-proxy/happ-android/releases/latest/download/Happ.apk) |
 |                                                                                                                                                              | [Download Beta APK](https://github.com/Happ-proxy/happ-android/releases/latest/download/Happ_beta.apk) | Linux: [alpha](https://github.com/Happ-proxy/happ-desktop/releases/)                                     | Apple TV - Soon                                                                             |
 
-Happ is a mobile application designed for convenient proxy server management, powered by the robust Xray core. The app features an intuitive interface and a range of useful functions, making it an essential tool for managing connections.
+Happ is a cross-platform application designed for convenient proxy management. Built on the powerful Xray core, it is available on Windows, macOS, Linux, and mobile devices. With its intuitive interface and flexible settings, Happ is a reliable tool for both beginners and advanced users.
 
 **Key features of Happ include:**
 
@@ -20,4 +20,6 @@ Happ is a mobile application designed for convenient proxy server management, po
 
 Happ ensures your network activity remains private by not collecting any data; your information remains solely on your device without being sent to external servers.
 
-It's important to highlight that Happ does not provide VPN services for purchase. Users are responsible for acquiring or setting up their own servers. Users should also comply with applicable laws in their jurisdiction when utilizing the app.
+It is important to note that Happ does not include any servers and does not provide VPN services. Users are responsible for configuring their own servers for personal use. Happ also asks its users to comply with the laws and regulations of their respective jurisdictions when using the application.
+
+<p align="center">Official website of the Happ application.<br>© 2024-2025 Happ. All rights reserved.</p>
