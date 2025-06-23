@@ -8,6 +8,7 @@
   * [Adding Configuration/Subscription](faq/adding-configuration-subscription.md)
   * [Share Configuration](faq/share-configuration.md)
   * [Local Network Connections](faq/local-network-connections.md)
+  * [Android TV](faq/android-tv.md)
 * [Developer Documentation](dev-docs/README.md)
   * [Crypto link](dev-docs/crypto-link.md)
   * [Meta Info](dev-docs/meta-info.md)
@@ -15,4 +16,5 @@
   * [Displaying flags and smileys](dev-docs/emoji.md)
   * [Examples of links and parameters](dev-docs/examples-of-links-and-parameters.md)
   * [Ping](dev-docs/ping.md)
+  * [Android TV API](dev-docs/android-tv-api.md)
 * [Contacts](contacts.md)
