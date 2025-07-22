@@ -16,7 +16,20 @@ Happ is a non-centralized VPN app with users connecting to their own custom conf
 
 DATA COLLECTION
 
-Happ only collects and shares the app's crash logs and diagnostics. Crash log data may for example be, the number of times that your app has crashed, stack traces or other information directly related to a crash. Analytics data may include; how long a user spent on a certain screen in the app. This information is collected and shared by/with Firebase Crashlytics and analytics. This helps in improving the app quality by ensuring any crashes and bugs are fixed. No individually/personally identifying information is collected/shared.
+Happ collects and transmits only crash reports and application diagnostics data.\
+Crash data may include:
+
+* the number of app crashes,
+* stack traces or other error-related information.
+
+Analytical data may include information such as the amount of time a user spends on a specific screen. This data is collected and transmitted via Sentry, which helps us improve the app by identifying and resolving bugs and crashes.\
+Personally identifiable information is not collected or shared.
+
+Additionally, the app collects and stores the push notification token required to deliver push notifications to the user's device.
+
+By default, the app also sends a unique device identifier (HWID) and the device model in HTTP headers when requesting subscription data (e.g., to fetch the list of servers). This information is used as a custom user identifier to support subscription functionality and connection management.
+
+Users can disable HWID transmission in the app settings. If disabled, the HWID will no longer be sent with requests to the server.
 
 ADVERTISING NETWORKS
 
