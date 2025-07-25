@@ -58,4 +58,10 @@ Allows you to set an additional label that is displayed below the server name in
 **Example:**\
 `vmess://...#MyServer?serverDescription=<base64>`
 
+**Example for JSON:**
+
+"meta": {\
+"serverDescription": "Here is the text without base64!"\
+}
+
 </details>
