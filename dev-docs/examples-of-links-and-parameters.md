@@ -60,8 +60,8 @@ Allows you to set an additional label that is displayed below the server name in
 
 **Example for JSON:**
 
-"meta": {\
-"serverDescription": "Here is the text without base64!"\
-}
+`"meta": {`\
+`"serverDescription": "Here is the text without base64!"`\
+`}`
 
 </details>
