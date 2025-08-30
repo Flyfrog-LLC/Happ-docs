@@ -1,8 +1,7 @@
 # Crypto link
 
-The application supports encrypted links. A link can be encrypted using an RSA-1024 or RSA-4096 key. Typically, an RSA-1024 key is used, but if the link exceeds 110 characters, an RSA-4096 key will be employed.
-
-Link encryption is designed to conceal the subscription address from the user. Once an encrypted subscription is added, the user cannot edit, view, or share server configurations contained in the subscription. The encryption keys themselves are securely embedded in the application, ensuring that subscription data remains protected.
+The application supports encrypted links. A link can be encrypted using RSA-4096. It is now recommended to use only RSA-4096, which is referred to as `happ://crypt3/`.\
+Link encryption is designed to hide the subscription address from the user. After adding an encrypted subscription, the user cannot edit, view, or share the server configurations contained in the subscription. The encryption keys themselves are securely embedded in the application, ensuring the protection of subscription data.
 
 ***
 
@@ -22,41 +21,24 @@ To use the API, you need to send a request to the following address: `https://cr
 curl -X POST -H "Content-Type: application/json" -d '{"url":"https://your_url.com"}' "https://crypto.happ.su/api.php"
 ```
 
-This will return the encrypted version of your link, which can be used in the application.
-
-#### RSA Keys
-
-If you prefer to encrypt the link manually, you can use the provided RSA keys.
-
-**RSA Key (RSA-1024):**
-
-```
------BEGIN PUBLIC KEY-----
-MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCxsS7PUq1biQlVD92rf6eXKr9o
-G1/SrYx3qWahZP+Jq35m4Wb/Z+mB6eBWrPzJ/zZpZLWLQorcvOKt+sLaCHyH1HLN
-kti4jlaEQX6x97XgBm8GK08+lLLWquFDhWRNxsrfzJyNdpVopzBRmCJKTc8ObYyP
-brv9T35a8Kd5WqjnUwIDAQAB
------END PUBLIC KEY-----
-```
+The result will return an encrypted version of your link, which can then be used in the application.
 
 **RSA Key (RSA-4096):**
 
 ```
 -----BEGIN PUBLIC KEY-----
-MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA5cL2yu9dZGnNbs4jt222
-NugIqiuZdXKdTh4IgXZmOX0vdpW+rYWrPd1EObQ3Urt+YBTK5Di98EBjYCPr8tus
-aVRAn3Vaq41CDisEdX35u1N8jSHQ0zDOtPdrvJtlqShib4UI6Vybk/QSmoZVbpRb
-67TNsiFqBmK1kxT+mbtHkhdT2u+hzNLQr0FtJR1+gC+ELKZ48zZY/d3YSSRSb+dx
-Und4FH31Kz68VKqlajISSzIrGQWc/zqSlihIvfnTPNX3pCyJpwAuYXieWSRDAogr
-wGwoiN++y14OLYHrNlqzoJ44WM3Tbm7x1Dj/8QI3tzwixli/0JmqQ19ssETDbVQ9
-0asoPc4QFhyc4c+PH62AdK1S+ysXt5uqEujRBk3rC53l65IOVXSTZgsLwzS7EFY9
-lZszJXUJJh5GB9heO8c7PNCTOxno3l4684iHFJuxnkS0DLbdzCXfovwfIP8q3lj7
-UJswPKVHkCLNSUutNke+xex1J3YEdvebJzv7Dk78PqLRmLWaEsAhQanXs93aTxEk
-d/p7hgFV30QozVQ/oNAvmQSVIBd6zCGM3of3R3tmDkDNGQGrY4MBTX+cTJGYstdh
-QXxj1oFZEG16F/0GGXG+sia67gYM3OC7RWyBOzULsEmupIiM8Vdx1iErw7yvJSC4
-IsIsWZD8JAmZtLBqEQ/TvfcCAwEAAQ==
+MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAlBetA0wjbaj+h7oJ/d/h
+pNrXvAcuhOdFGEFcfCxSWyLzWk4SAQ05gtaEGZyetTax2uqagi9HT6lapUSUe2S8
+nMLJf5K+LEs9TYrhhBdx/B0BGahA+lPJa7nUwp7WfUmSF4hir+xka5ApHjzkAQn6
+cdG6FKtSPgq1rYRPd1jRf2maEHwiP/e/jqdXLPP0SFBjWTMt/joUDgE7v/IGGB0L
+Q7mGPAlgmxwUHVqP4bJnZ//5sNLxWMjtYHOYjaV+lixNSfhFM3MdBndjpkmgSfmg
+D5uYQYDL29TDk6Eu+xetUEqry8ySPjUbNWdDXCglQWMxDGjaqYXMWgxBA1UKjUBW
+wbgr5yKTJ7mTqhlYEC9D5V/LOnKd6pTSvaMxkHXwk8hBWvUNWAxzAf5JZ7EVE3jt
+0j682+/hnmL/hymUE44yMG1gCcWvSpB3BTlKoMnl4yrTakmdkbASeFRkN3iMRewa
+IenvMhzJh1fq7xwX94otdd5eLB2vRFavrnhOcN2JJAkKTnx9dwQwFpGEkg+8U613
++Tfm/f82l56fFeoFN98dD2mUFLFZoeJ5CG81ZeXrH83niI0joX7rtoAZIPWzq3Y1
+Zb/Zq+kK2hSIhphY172Uvs8X2Qp2ac9UoTPM71tURsA9IvPNvUwSIo/aKlX5KE3I
+VE0tje7twWXL5Gb1sfcXRzsCAwEAAQ==
 -----END PUBLIC KEY-----
 ```
-
-Use these keys to encrypt your links with your preferred RSA encryption tool.
 
