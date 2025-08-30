@@ -9,7 +9,7 @@ You can encrypt a link in three ways:
 
 1. Using this [web page](https://crypto.happ.su)
 2. Using the [API](crypto-link.md#api-instructions)
-3. Using RSA [keys](crypto-link.md#rsa-keys)
+3. Using [RSA key](crypto-link.md#rsa-key-rsa-4096)
 
 #### API Instructions
 
@@ -23,7 +23,7 @@ curl -X POST -H "Content-Type: application/json" -d '{"url":"https://your_url.co
 
 The result will return an encrypted version of your link, which can then be used in the application.
 
-**RSA Key (RSA-4096):**
+#### **RSA Key (RSA-4096):**
 
 ```
 -----BEGIN PUBLIC KEY-----
