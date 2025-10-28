@@ -4,8 +4,8 @@
 
 **App management functionality** includes two directions:
 
-* Standard parameters that work for most panels.
-* Advanced parameters for which it is necessary to pass Provider ID with the subscription.
+* [Standard parameters](app-management.md#standard-parameters) that work for most panels.
+* [Advanced parameters](app-management.md#id-rasshirennyifunkcional-opisanieparametrov) for which it is necessary to pass [Provider ID](provider-id.md) with the subscription.
 
 To activate a parameter, pass the value `true` or `1`; to disable it — any other non-empty value (for example, `0` or `false`).
 
@@ -283,7 +283,7 @@ vmess://zkIAU1JitkI…
 ### Advanced Parameters <a href="#id-rasshirennyifunkcional-opisanieparametrov" id="id-rasshirennyifunkcional-opisanieparametrov"></a>
 
 {% hint style="warning" %}
-Provider ID parameter is required!
+[Provider ID](provider-id.md) parameter is required!
 {% endhint %}
 
 <details>
@@ -628,7 +628,7 @@ vmess://zkIAU1JitkI…
 **Managing App Settings**
 
 {% hint style="warning" %}
-Provider ID parameter is required!
+[Provider ID](provider-id.md) parameter is required!
 {% endhint %}
 
 <details>
