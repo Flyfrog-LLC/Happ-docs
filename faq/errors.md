@@ -1,24 +1,24 @@
 # Errors
 
-## Errors
-
 This section describes possible application errors in detail:
 
-#### Clipboard is empty
+### Clipboard is empty
 
 Most likely, you forgot to copy the data before attempting to import it into the application.
 
-#### Invalid subscription URL
+### The subscription URL is not valid
 
 The provided address contains errors or invalid characters. Check the link for correctness by reviewing the clipboard contents.
 
-#### Invalid {config type} configuration
+### Configuration {config type} is not valid
 
-### Invalid JSON (array) configuration
+The configuration you tried to add (vless, vmess, trojan, etc.) contains errors or invalid characters. Verify the link’s correctness by reviewing the clipboard contents.
+
+### JSON (or array) configuration is not valid
 
 The provided JSON contains errors or invalid characters. Check the JSON by reviewing the clipboard contents.
 
-### Unknown DeepLink action
+### Invalid deeplink URL
 
 The specified DeepLink is not recognized by the application and has been ignored.
 
@@ -26,7 +26,7 @@ The specified DeepLink is not recognized by the application and has been ignored
 
 The provided data could not be recognized because it contains errors or invalid characters. Verify the correctness of the provided data.
 
-### Invalid routing profile data
+### Wrong data for import routing profile
 
 The routing profile contains errors or invalid parameters.
 
