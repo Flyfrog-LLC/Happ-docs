@@ -1,3 +1,8 @@
+---
+hidden: true
+noIndex: true
+---
+
 # Meta Info
 
 <figure><img src="../.gitbook/assets/Frame 110.png" alt="" width="375"><figcaption></figcaption></figure>

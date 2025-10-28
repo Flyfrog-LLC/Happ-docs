@@ -12,6 +12,7 @@
 * [Developer Documentation](dev-docs/README.md)
   * [Crypto link](dev-docs/crypto-link.md)
   * [Meta Info](dev-docs/meta-info.md)
+  * [App management](dev-docs/app-management.md)
   * [Routing](dev-docs/routing.md)
   * [Displaying flags and smileys](dev-docs/emoji.md)
   * [Examples of links and parameters](dev-docs/examples-of-links-and-parameters.md)
